@@ -21,6 +21,7 @@
 		"test": "tsdx build && tsdx test",
 		"lint": "tsdx lint src test/*.test.ts test/**/*.test.ts",
 		"prepublish": "yarn build",
+		"prepack": "yarn build",
 		"prepare": "yarn build"
 	},
 	"peerDependencies": {
